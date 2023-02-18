@@ -10,8 +10,8 @@ An iOS app that allows you to track the prices of the top 100 CoinX in real-time
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 1](https://i.ibb.co/23QD0fM/Simulator-Screen-Shot-i-Phone-13-Pro-2023-02-18-at-08-42-12.png)
+![Screenshot 2](https://i.ibb.co/MhkxkVY/Simulator-Screen-Shot-i-Phone-13-Pro-2023-02-18-at-08-42-24.png)
 
 ## Installation
 
