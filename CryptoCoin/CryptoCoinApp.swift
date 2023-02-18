@@ -1,6 +1,6 @@
 //
-//  coinXApp.swift
-//  coinX
+//  CryptoCoinApp.swift
+//  CryptoCoin
 //
 //  Created by SINAN TANRIKUT on 18.02.2023.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct coinXApp: App {
+struct CryptoCoinApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
