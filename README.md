@@ -18,7 +18,7 @@ An iOS app that allows you to track the prices of the top 100 CoinX in real-time
 1. Clone the repository
 git clone https://github.com/sinantanrikut/swfitui-coinx.git
 
-2. Open the Xcode project file `CryptoCoin Tracker.xcodeproj`
+2. Open the Xcode project file `CryptoCoin.xcodeproj`
 3. Build and run the app on your device or simulator
 
 ## Dependencies
