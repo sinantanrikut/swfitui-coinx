@@ -19,6 +19,9 @@
 		F3D063C729A08BC700EEB520 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063C629A08BC700EEB520 /* Coin.swift */; };
 		F3D063CA29A0979500EEB520 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F3D063C929A0979500EEB520 /* Kingfisher */; };
 		F3D063CC29A0986700EEB520 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063CB29A0986700EEB520 /* Double.swift */; };
+		F3D063CF29A0A69500EEB520 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063CE29A0A69500EEB520 /* TabbarView.swift */; };
+		F3D063D229A0A86C00EEB520 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063D129A0A86C00EEB520 /* SettingsView.swift */; };
+		F3D063D429A0A8F000EEB520 /* SettingsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063D329A0A8F000EEB520 /* SettingsItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		F3D063C429A0886800EEB520 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		F3D063C629A08BC700EEB520 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		F3D063CB29A0986700EEB520 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		F3D063CE29A0A69500EEB520 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		F3D063D129A0A86C00EEB520 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F3D063D329A0A8F000EEB520 /* SettingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,8 @@
 		F3D063B129A07DE700EEB520 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F3D063D029A0A85E00EEB520 /* Settings */,
+				F3D063CD29A0A68900EEB520 /* Tabbar */,
 				F3D063B329A07E1B00EEB520 /* Home */,
 			);
 			path = Core;
@@ -152,6 +160,23 @@
 				F3D063C429A0886800EEB520 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F3D063CD29A0A68900EEB520 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F3D063CE29A0A69500EEB520 /* TabbarView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		F3D063D029A0A85E00EEB520 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F3D063D129A0A86C00EEB520 /* SettingsView.swift */,
+				F3D063D329A0A8F000EEB520 /* SettingsItemView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D063D429A0A8F000EEB520 /* SettingsItemView.swift in Sources */,
 				F3D063C729A08BC700EEB520 /* Coin.swift in Sources */,
 				F3D063B929A07F9B00EEB520 /* TopMoversView.swift in Sources */,
 				F3D063BD29A0838A00EEB520 /* AllCoinsView.swift in Sources */,
@@ -238,7 +264,9 @@
 				F3D0639B29A07D2300EEB520 /* CryptoCoinApp.swift in Sources */,
 				F3D063BF29A0839300EEB520 /* CoinRowView.swift in Sources */,
 				F3D063CC29A0986700EEB520 /* Double.swift in Sources */,
+				F3D063CF29A0A69500EEB520 /* TabbarView.swift in Sources */,
 				F3D063BB29A07FBA00EEB520 /* TopMoversItemView.swift in Sources */,
+				F3D063D229A0A86C00EEB520 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
