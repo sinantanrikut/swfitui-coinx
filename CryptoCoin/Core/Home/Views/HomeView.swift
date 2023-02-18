@@ -19,6 +19,9 @@ struct HomeView: View {
                 //all coins views
                 AllCoinsView(viewModel: viewModel)
             }.navigationTitle("Live Prices")
+                .refreshable {
+                    viewModel.fetchCoins()
+                }
         }
     }
 }

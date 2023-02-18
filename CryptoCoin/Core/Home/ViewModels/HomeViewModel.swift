@@ -10,6 +10,7 @@ import SwiftUI
 class HomeViewModel: ObservableObject {
     @Published var coins = [Coin]()
     @Published var topMovingCoins = [Coin]()
+    @Published var loading = true
      
      init() {
          fetchCoins()
@@ -24,7 +25,8 @@ class HomeViewModel: ObservableObject {
                          DispatchQueue.main.async {
                              self.coins = decodedResponse
                              self.configureToMovingCoins()
-                             print("DEBUG: Coins \(decodedResponse)")
+                             print("🍏 Success")
+                             self.loading = false
                          }
                      } catch let error {
                          print("Error: \(error)")

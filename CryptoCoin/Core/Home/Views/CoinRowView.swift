@@ -55,13 +55,13 @@ struct CoinRowView: View {
         Divider()
     }
 }
-/*
+
  
- struct CoinRowView_Previews: PreviewProvider {
-     static var previews: some View {
-         CoinRowView()
-     }
- }
+// struct CoinRowView_Previews: PreviewProvider {
+//     static var previews: some View {
+//         CoinRowView(coin)
+//     }
+// }
 
 
- */
+ 
