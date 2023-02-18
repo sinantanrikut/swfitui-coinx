@@ -11,6 +11,12 @@
 		F3D0639D29A07D2300EEB520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D0639C29A07D2300EEB520 /* ContentView.swift */; };
 		F3D0639F29A07D2500EEB520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D0639E29A07D2500EEB520 /* Assets.xcassets */; };
 		F3D063A229A07D2500EEB520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D063A129A07D2500EEB520 /* Preview Assets.xcassets */; };
+		F3D063B729A07E8900EEB520 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063B629A07E8900EEB520 /* HomeView.swift */; };
+		F3D063B929A07F9B00EEB520 /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063B829A07F9B00EEB520 /* TopMoversView.swift */; };
+		F3D063BB29A07FBA00EEB520 /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063BA29A07FBA00EEB520 /* TopMoversItemView.swift */; };
+		F3D063BD29A0838A00EEB520 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063BC29A0838A00EEB520 /* AllCoinsView.swift */; };
+		F3D063BF29A0839300EEB520 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063BE29A0839300EEB520 /* CoinRowView.swift */; };
+		F3D063C529A0886800EEB520 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D063C429A0886800EEB520 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		F3D0639C29A07D2300EEB520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F3D0639E29A07D2500EEB520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3D063A129A07D2500EEB520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3D063B629A07E8900EEB520 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F3D063B829A07F9B00EEB520 /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
+		F3D063BA29A07FBA00EEB520 /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
+		F3D063BC29A0838A00EEB520 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
+		F3D063BE29A0839300EEB520 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		F3D063C429A0886800EEB520 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,12 @@
 		F3D0639929A07D2300EEB520 /* CryptoCoin */ = {
 			isa = PBXGroup;
 			children = (
-				F3D0639A29A07D2300EEB520 /* CryptoCoinApp.swift */,
+				F3D063B229A07DF200EEB520 /* App */,
+				F3D063B129A07DE700EEB520 /* Core */,
+				F3D063B029A07DE100EEB520 /* Models */,
 				F3D0639C29A07D2300EEB520 /* ContentView.swift */,
+				F3D063AF29A07DD300EEB520 /* Extensions */,
+				F3D063AE29A07DAD00EEB520 /* Utils */,
 				F3D0639E29A07D2500EEB520 /* Assets.xcassets */,
 				F3D063A029A07D2500EEB520 /* Preview Content */,
 			);
@@ -65,6 +81,72 @@
 				F3D063A129A07D2500EEB520 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3D063AE29A07DAD00EEB520 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F3D063AF29A07DD300EEB520 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F3D063B029A07DE100EEB520 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3D063B129A07DE700EEB520 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F3D063B329A07E1B00EEB520 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F3D063B229A07DF200EEB520 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F3D0639A29A07D2300EEB520 /* CryptoCoinApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F3D063B329A07E1B00EEB520 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F3D063B429A07E6500EEB520 /* Views */,
+				F3D063B529A07E6D00EEB520 /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F3D063B429A07E6500EEB520 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3D063B629A07E8900EEB520 /* HomeView.swift */,
+				F3D063B829A07F9B00EEB520 /* TopMoversView.swift */,
+				F3D063BA29A07FBA00EEB520 /* TopMoversItemView.swift */,
+				F3D063BC29A0838A00EEB520 /* AllCoinsView.swift */,
+				F3D063BE29A0839300EEB520 /* CoinRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3D063B529A07E6D00EEB520 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F3D063C429A0886800EEB520 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D063B929A07F9B00EEB520 /* TopMoversView.swift in Sources */,
+				F3D063BD29A0838A00EEB520 /* AllCoinsView.swift in Sources */,
+				F3D063B729A07E8900EEB520 /* HomeView.swift in Sources */,
+				F3D063C529A0886800EEB520 /* HomeViewModel.swift in Sources */,
 				F3D0639D29A07D2300EEB520 /* ContentView.swift in Sources */,
 				F3D0639B29A07D2300EEB520 /* CryptoCoinApp.swift in Sources */,
+				F3D063BF29A0839300EEB520 /* CoinRowView.swift in Sources */,
+				F3D063BB29A07FBA00EEB520 /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
