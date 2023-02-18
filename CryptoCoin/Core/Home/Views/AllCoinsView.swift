@@ -29,7 +29,7 @@ struct AllCoinsView: View {
                 VStack{
                     ForEach(viewModel.coins ) { coin in
                         CoinRowView(coin: coin)
-                    }.redacted(reason: viewModel.loading ? .placeholder : .privacy)
+                    }
                 }
             }
         }

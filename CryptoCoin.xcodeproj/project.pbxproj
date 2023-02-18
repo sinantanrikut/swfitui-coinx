@@ -40,6 +40,7 @@
 		F3D063CE29A0A69500EEB520 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 		F3D063D129A0A86C00EEB520 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F3D063D329A0A8F000EEB520 /* SettingsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemView.swift; sourceTree = "<group>"; };
+		F3D063D529A14CDA00EEB520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +74,7 @@
 		F3D0639929A07D2300EEB520 /* CryptoCoin */ = {
 			isa = PBXGroup;
 			children = (
+				F3D063D529A14CDA00EEB520 /* Info.plist */,
 				F3D063B229A07DF200EEB520 /* App */,
 				F3D063B129A07DE700EEB520 /* Core */,
 				F3D063B029A07DE100EEB520 /* Models */,
@@ -398,6 +400,8 @@
 				DEVELOPMENT_TEAM = UDN38C656M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoCoin/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Lütfen izin verin";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -427,6 +431,8 @@
 				DEVELOPMENT_TEAM = UDN38C656M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoCoin/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Lütfen izin verin";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

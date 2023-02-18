@@ -15,13 +15,16 @@ struct HomeView: View {
             ScrollView(.vertical, showsIndicators: false ){
                 //top movers view
                 TopMoversView(viewModel: viewModel)
+                    .redacted(reason: viewModel.loading ? .placeholder : .privacy)
                 Divider()
                 //all coins views
                 AllCoinsView(viewModel: viewModel)
+                    .redacted(reason: viewModel.loading ? .placeholder : .privacy)
             }.navigationTitle("Live Prices")
                 .refreshable {
                     viewModel.fetchCoins()
                 }
+                
         }
     }
 }
